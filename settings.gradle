@@ -1,0 +1,3 @@
+rootProject.name = "DemoAppoDeal"
+include ':app'
+include ':LibAds'

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="autoCompleteTextViewStyle">@style/SearchView</item>
+    </style>
+    <style name="SearchView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/textTitle</item>
+        <item name="android:textColorHint">@color/textHint</item>
+    </style>
+
+    <style name="AppTheme.Ads" parent="@style/AdsAppTheme">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/ads_icon</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">15.0px</item>
+        <item name="android:minHeight">15.0px</item>
+        <item name="android:text">Ad</item>
+    </style>
+
+    <style name="AdsAppTheme" parent="Theme.AppCompat.Light" />
+</resources>
